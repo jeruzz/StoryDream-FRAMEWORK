@@ -1,0 +1,124 @@
+{
+  "version": "1.0",
+  "description": "Tipos de Plot Twists y técnicas de setup para StoryDream Framework",
+  "tipos_plot_twists": [
+    {
+      "id": "identidad",
+      "nombre": "Plot Twist de Identidad",
+      "descripcion": "Revelación de quién es realmente alguien",
+      "ejemplos": [
+        "El mentor es el antagonista",
+        "El aliado es un impostor",
+        "El soldado es un espía"
+      ],
+      "setup_tecnicas": [
+        "Mostrar a la persona bajo una identidad falsa",
+        "Comportamientos que tienen sentido después de la revelación",
+        "Pistas sutiles en diálogos"
+      ],
+      "payoff": "Toda interacción anterior se reinterpreta",
+      "momento_ideal": "60-75% de la historia"
+    },
+    {
+      "id": "perspectiva",
+      "nombre": "Plot Twist de Perspectiva",
+      "descripcion": "Cambio en cómo interpretamos eventos anteriores",
+      "ejemplos": [
+        "El evento traumático fue un acto de sacrificio, no traición",
+        "El antagonista estaba protegiendo algo importante"
+      ],
+      "setup_tecnicas": [
+        "Presentar información que sin contexto completo parece una cosa",
+        "Narrativa desde un POV limitado",
+        "Omitir información clave sin mentir"
+      ],
+      "payoff": "Nueva información recontextualiza todo",
+      "momento_ideal": "75-85% de la historia"
+    },
+    {
+      "id": "realidad",
+      "nombre": "Plot Twist de Realidad",
+      "descripcion": "La naturaleza misma de la realidad es diferente",
+      "ejemplos": [
+        "Es un sueño",
+        "Es una simulación",
+        "El tiempo está fragmentado"
+      ],
+      "setup_tecnicas": [
+        "Detalles que no encajan perfectamente",
+        "Inconsistencias atribuidas al mundo",
+        "Pistas visuales o diálogos ambiguos"
+      ],
+      "payoff": "Estos detalles adquieren nuevo significado, la lógica cambia",
+      "momento_ideal": "80-90% de la historia"
+    },
+    {
+      "id": "objetivo",
+      "nombre": "Plot Twist de Objetivo",
+      "descripcion": "Las metas verdaderas de un personaje no son lo que parecen",
+      "ejemplos": [
+        "No están salvando al mundo, están destruyéndolo",
+        "No quieren venganza, quieren sacrificio"
+      ],
+      "setup_tecnicas": [
+        "Acciones con doble propósito",
+        "Lectura superficial vs profunda",
+        "Motivaciones aparentes vs ocultas"
+      ],
+      "payoff": "Reinterpretación de todas las acciones del personaje",
+      "momento_ideal": "50-70% de la historia"
+    },
+    {
+      "id": "alianza",
+      "nombre": "Plot Twist de Alianza",
+      "descripcion": "Cambios en quién está del lado de quién",
+      "ejemplos": [
+        "El enemigo común hace a adversarios aliados",
+        "El aliado se revela como enemigo"
+      ],
+      "setup_tecnicas": [
+        "Tensiones latentes entre personajes",
+        "Motivaciones conflictivas",
+        "Objetivos que pueden divergir"
+      ],
+      "payoff": "Nueva dinámica altera fundamentalmente la tensión",
+      "momento_ideal": "40-60% de la historia"
+    },
+    {
+      "id": "revelacion",
+      "nombre": "Plot Twist de Revelación",
+      "descripcion": "Información crítica oculta es revelada",
+      "ejemplos": [
+        "El asesinato fue un accidente",
+        "Hay un heredero secreto",
+        "Un personaje está enfermo"
+      ],
+      "setup_tecnicas": [
+        "Pistas sutiles en comportamientos",
+        "Información fragmentada",
+        "Secretos guardados estratégicamente"
+      ],
+      "payoff": "Explica comportamientos previos, genera empatía o horror nuevos",
+      "momento_ideal": "Variable según impacto"
+    }
+  ],
+  "distribucion_recomendada": {
+    "novela_12_capitulos": {
+      "twist_menor_1": {"capitulo": "3-4", "porcentaje": "20-25%"},
+      "twist_mayor_1": {"capitulo": "6-7", "porcentaje": "50%"},
+      "twist_mayor_2": {"capitulo": "9-10", "porcentaje": "75%"},
+      "twist_final": {"capitulo": "11-12", "porcentaje": "90-95%"}
+    },
+    "pelicula_90_120_min": {
+      "twist_1": {"minuto": "30-40", "porcentaje": "33%"},
+      "twist_2": {"minuto": "60-75", "porcentaje": "66%"},
+      "twist_final": {"minuto": "90-100", "porcentaje": "85%"}
+    }
+  },
+  "tecnicas_generales": {
+    "misdirection": "Dirigir atención a una cosa mientras se prepara otra",
+    "setup_sutil": "Pistas que el audience verá pero olvidará",
+    "coherencia_retrospectiva": "Después del twist, debe pensar '¡Claro!'",
+    "timing_reveal": "Justo cuando el audience está completamente invertido"
+  }
+}
