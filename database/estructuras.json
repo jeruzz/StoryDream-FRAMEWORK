@@ -1,0 +1,210 @@
+{
+  "version": "1.0",
+  "description": "Estructuras narrativas del StoryDream Framework",
+  "estructuras": [
+    {
+      "id": "tres_actos",
+      "nombre": "Estructura de Tres Actos",
+      "descripcion": "Estructura clásica dividida en planteamiento, confrontación y resolución",
+      "actos": [
+        {
+          "acto": 1,
+          "nombre": "Planteamiento",
+          "porcentaje": 25,
+          "elementos_clave": [
+            "Presentación del mundo ordinario",
+            "Introducción del protagonista",
+            "Incidente detonante",
+            "Primera puerta de acción"
+          ]
+        },
+        {
+          "acto": 2,
+          "nombre": "Confrontación",
+          "porcentaje": 50,
+          "elementos_clave": [
+            "Obstáculos crecientes",
+            "Punto medio (revelación importante)",
+            "Falso triunfo o derrota",
+            "Crisis y todo está perdido",
+            "Segunda puerta de acción"
+          ]
+        },
+        {
+          "acto": 3,
+          "nombre": "Resolución",
+          "porcentaje": 25,
+          "elementos_clave": [
+            "Clímax final",
+            "Resolución del conflicto",
+            "Nuevo mundo ordinario",
+            "Arco de transformación completado"
+          ]
+        }
+      ],
+      "uso_recomendado": ["Películas", "Novelas", "Series"]
+    },
+    {
+      "id": "viaje_heroe",
+      "nombre": "Viaje del Héroe (Monomito)",
+      "descripcion": "Estructura basada en Joseph Campbell con 12 etapas arquetípicas",
+      "etapas": [
+        {
+          "orden": 1,
+          "nombre": "Mundo Ordinario",
+          "descripcion": "Presentación del héroe en su contexto habitual"
+        },
+        {
+          "orden": 2,
+          "nombre": "Llamada a la Aventura",
+          "descripcion": "Evento que desafía al héroe a salir de su zona de confort"
+        },
+        {
+          "orden": 3,
+          "nombre": "Rechazo de la Llamada",
+          "descripcion": "Resistencia inicial del héroe por miedo o inseguridad"
+        },
+        {
+          "orden": 4,
+          "nombre": "Encuentro con el Mentor",
+          "descripcion": "Guía que proporciona conocimiento o herramientas"
+        },
+        {
+          "orden": 5,
+          "nombre": "Cruce del Umbral",
+          "descripcion": "El héroe entra al mundo extraordinario"
+        },
+        {
+          "orden": 6,
+          "nombre": "Pruebas, Aliados y Enemigos",
+          "descripcion": "Aprendizaje y formación de alianzas"
+        },
+        {
+          "orden": 7,
+          "nombre": "Acercamiento a la Cueva Más Profunda",
+          "descripcion": "Preparación para el desafío mayor"
+        },
+        {
+          "orden": 8,
+          "nombre": "Ordalía",
+          "descripcion": "Enfrentamiento con la muerte o mayor miedo"
+        },
+        {
+          "orden": 9,
+          "nombre": "Recompensa",
+          "descripcion": "Obtención de objeto mágico o conocimiento"
+        },
+        {
+          "orden": 10,
+          "nombre": "Camino de Regreso",
+          "descripcion": "Inicio del retorno con persecución"
+        },
+        {
+          "orden": 11,
+          "nombre": "Resurrección",
+          "descripcion": "Prueba final que demuestra la transformación"
+        },
+        {
+          "orden": 12,
+          "nombre": "Retorno con el Elixir",
+          "descripcion": "Regreso transformado con beneficio para su comunidad"
+        }
+      ],
+      "uso_recomendado": ["Fantasía", "Ciencia Ficción", "Aventuras"]
+    },
+    {
+      "id": "save_the_cat",
+      "nombre": "Save the Cat (15 Beats)",
+      "descripcion": "Estructura detallada de Blake Snyder para guiones cinematográficos",
+      "beats": [
+        {"numero": 1, "nombre": "Opening Image", "pagina": 1},
+        {"numero": 2, "nombre": "Theme Stated", "pagina": 5},
+        {"numero": 3, "nombre": "Set-Up", "pagina": "1-10"},
+        {"numero": 4, "nombre": "Catalyst", "pagina": 12},
+        {"numero": 5, "nombre": "Debate", "pagina": "12-25"},
+        {"numero": 6, "nombre": "Break Into Two", "pagina": 25},
+        {"numero": 7, "nombre": "B Story", "pagina": 30},
+        {"numero": 8, "nombre": "Fun and Games", "pagina": "30-55"},
+        {"numero": 9, "nombre": "Midpoint", "pagina": 55},
+        {"numero": 10, "nombre": "Bad Guys Close In", "pagina": "55-75"},
+        {"numero": 11, "nombre": "All Is Lost", "pagina": 75},
+        {"numero": 12, "nombre": "Dark Night of the Soul", "pagina": "75-85"},
+        {"numero": 13, "nombre": "Break Into Three", "pagina": 85},
+        {"numero": 14, "nombre": "Finale", "pagina": "85-110"},
+        {"numero": 15, "nombre": "Final Image", "pagina": 110}
+      ],
+      "uso_recomendado": ["Guiones de cine", "Películas de 110 páginas"]
+    },
+    {
+      "id": "siete_puntos",
+      "nombre": "Estructura de Siete Puntos",
+      "descripcion": "Método de Dan Wells enfocado en arcos de transformación",
+      "puntos": [
+        {
+          "orden": 1,
+          "nombre": "Gancho (Hook)",
+          "descripcion": "Presentación del protagonista en estado inicial"
+        },
+        {
+          "orden": 2,
+          "nombre": "Primer Punto de Giro",
+          "descripcion": "Evento que impulsa la historia"
+        },
+        {
+          "orden": 3,
+          "nombre": "Primer Pellizco (Pinch Point)",
+          "descripcion": "Recordatorio del poder del antagonista"
+        },
+        {
+          "orden": 4,
+          "nombre": "Punto Medio",
+          "descripcion": "El protagonista pasa de reactivo a proactivo"
+        },
+        {
+          "orden": 5,
+          "nombre": "Segundo Pellizco",
+          "descripcion": "Las fuerzas antagonistas alcanzan su máximo poder"
+        },
+        {
+          "orden": 6,
+          "nombre": "Segundo Punto de Giro",
+          "descripcion": "El protagonista obtiene la pieza final del puzzle"
+        },
+        {
+          "orden": 7,
+          "nombre": "Resolución",
+          "descripcion": "Estado final del protagonista transformado"
+        }
+      ],
+      "uso_recomendado": ["Novelas", "Series", "Relatos largos"]
+    },
+    {
+      "id": "kishotenketsu",
+      "nombre": "Kishōtenketsu",
+      "descripcion": "Estructura narrativa asiática de cuatro actos sin conflicto obligatorio",
+      "actos": [
+        {
+          "acto": 1,
+          "nombre": "Ki (Introducción)",
+          "descripcion": "Presentación de personajes y situación"
+        },
+        {
+          "acto": 2,
+          "nombre": "Shō (Desarrollo)",
+          "descripcion": "Desarrollo natural de la situación"
+        },
+        {
+          "acto": 3,
+          "nombre": "Ten (Giro)",
+          "descripcion": "Introducción de elemento inesperado"
+        },
+        {
+          "acto": 4,
+          "nombre": "Ketsu (Conclusión)",
+          "descripcion": "Reconciliación y cierre armonioso"
+        }
+      ],
+      "uso_recomendado": ["Slice of life", "Drama contemplativo", "Cine asiático"]
+    }
+  ]
+}
