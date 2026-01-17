@@ -1,0 +1,146 @@
+{
+  "version": "1.0",
+  "description": "Definiciones de géneros narrativos para StoryDream Framework",
+  "generos": [
+    {
+      "id": "thriller_psicologico",
+      "nombre": "Thriller Psicológico",
+      "descripcion": "Narrativas que exploran la mente humana, secretos oscuros y traiciones",
+      "elementos_clave": [
+        "Secretos y revelaciones",
+        "Personajes con traumas",
+        "Giros de perspectiva",
+        "Tensión psicológica sostenida",
+        "Manipulación y engaño"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 25,
+        "acto2_porcentaje": 50,
+        "acto3_porcentaje": 25,
+        "plot_twists_minimos": 3,
+        "escalada_tension": "progresiva_constante"
+      },
+      "ejemplos": ["Gone Girl", "Shutter Island", "El Silencio de los Inocentes"]
+    },
+    {
+      "id": "drama_romantico",
+      "nombre": "Drama Romántico",
+      "descripcion": "Historias centradas en relaciones emocionales profundas con obstáculos",
+      "elementos_clave": [
+        "Conflicto entre deseo y necesidad",
+        "Obstáculos externos e internos",
+        "Momentos de vulnerabilidad",
+        "Arco de transformación emocional",
+        "Sacrificio y redención"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 20,
+        "acto2_porcentaje": 60,
+        "acto3_porcentaje": 20,
+        "plot_twists_minimos": 2,
+        "escalada_tension": "emocional_variada"
+      },
+      "ejemplos": ["El Diario de Noah", "La La Land", "Orgullo y Prejuicio"]
+    },
+    {
+      "id": "accion_epica",
+      "nombre": "Acción Épica",
+      "descripcion": "Narrativas de alto impacto con secuencias de acción intensa y apuestas altas",
+      "elementos_clave": [
+        "Secuencias de acción cinematográfica",
+        "Antagonista poderoso",
+        "Escalada de peligro constante",
+        "Sacrificio heróico",
+        "Batallas épicas"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 15,
+        "acto2_porcentaje": 60,
+        "acto3_porcentaje": 25,
+        "plot_twists_minimos": 2,
+        "escalada_tension": "rapida_explosiva"
+      },
+      "ejemplos": ["Mad Max: Fury Road", "John Wick", "El Señor de los Anillos"]
+    },
+    {
+      "id": "ciencia_ficcion",
+      "nombre": "Ciencia Ficción",
+      "descripcion": "Exploración de conceptos futuristas, tecnológicos o especulativos",
+      "elementos_clave": [
+        "Worldbuilding detallado",
+        "Tecnología o concepto central",
+        "Dilemas éticos o filosóficos",
+        "Sociedad alternativa",
+        "Consecuencias de avances científicos"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 30,
+        "acto2_porcentaje": 45,
+        "acto3_porcentaje": 25,
+        "plot_twists_minimos": 2,
+        "escalada_tension": "conceptual_progresiva"
+      },
+      "ejemplos": ["Blade Runner", "Interstellar", "Matrix"]
+    },
+    {
+      "id": "horror",
+      "nombre": "Horror",
+      "descripcion": "Narrativas que generan miedo, suspenso y desasosiego",
+      "elementos_clave": [
+        "Amenaza sobrenatural o psicológica",
+        "Atmósfera opresiva",
+        "Revelaciones perturbadoras",
+        "Vulnerabilidad de personajes",
+        "Escalada de peligro inminente"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 20,
+        "acto2_porcentaje": 50,
+        "acto3_porcentaje": 30,
+        "plot_twists_minimos": 3,
+        "escalada_tension": "gradual_explosiva"
+      },
+      "ejemplos": ["El Exorcista", "Hereditary", "El Resplandor"]
+    },
+    {
+      "id": "fantasia",
+      "nombre": "Fantasía",
+      "descripcion": "Mundos imaginarios con magia, criaturas y aventuras épicas",
+      "elementos_clave": [
+        "Sistema de magia coherente",
+        "Worldbuilding rico",
+        "Viaje del héroe",
+        "Razas y criaturas únicas",
+        "Profecías o destinos"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 25,
+        "acto2_porcentaje": 50,
+        "acto3_porcentaje": 25,
+        "plot_twists_minimos": 2,
+        "escalada_tension": "progresiva_epica"
+      },
+      "ejemplos": ["Harry Potter", "El Hobbit", "Juego de Tronos"]
+    },
+    {
+      "id": "misterio",
+      "nombre": "Misterio",
+      "descripcion": "Investigaciones y resoluciones de enigmas complejos",
+      "elementos_clave": [
+        "Enigma central intrigante",
+        "Pistas y red herrings",
+        "Investigación sistemática",
+        "Revelación sorprendente",
+        "Reconstrucción de eventos"
+      ],
+      "estructura_recomendada": {
+        "acto1_porcentaje": 20,
+        "acto2_porcentaje": 55,
+        "acto3_porcentaje": 25,
+        "plot_twists_minimos": 3,
+        "escalada_tension": "revelaciones_graduales"
+      },
+      "ejemplos": ["Sherlock Holmes", "Knives Out", "True Detective"]
+    }
+  ]
+}
